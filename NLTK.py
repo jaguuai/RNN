@@ -19,8 +19,14 @@ and superhuman play and analysis in strategy games (e.g., chess and Go).[2] Howe
  it's not labeled AI anymore."[3][4]
  """
 tokens=nltk.word_tokenize(sentence)
-# print(tokens)
+print(tokens)
 tagged=nltk.pos_tag(tokens)
-# print(tagged)
+print(tagged)
 entities=nltk.chunk.ne_chunk(tagged)
 print(entities)
+
+
+
+
+
+
